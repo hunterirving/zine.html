@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>zine.html</title>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎱</text></svg>">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html, body {
+			overflow: hidden;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			background-color: rgb(58, 158, 183);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#sheet {
+			width: 8.5in;
+			height: 11in;
+			background-color: white;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(4, 1fr);
+			gap: 0;
+			box-sizing: border-box;
+			transform: rotate(-90deg);
+		}
+		
+		#page3, #page4, #page5, #page6 {
+			transform: rotate(180deg);
+		}
+
+		.zine-page {
+			border: 1px dotted lightgrey;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			width: 4.25in;
+			height: 2.75in;
+		}
+
+		.zine-page-inner {
+			width: 2.4in;
+			height: 3.85in;
+			transform: rotate(90deg);
+			overflow: hidden;
+		}
+
+		p {
+			font-size: 12px;
+			line-height: 1.3;
+		}
+
+		/* Print styles */
+		@media print {
+			* {
+				margin: 0 !important;
+				padding: 0 !important;
+			}
+			
+			body {
+				background-color: white;
+				padding: 0;
+				margin: 0;
+				height: 11in;
+				width: 8.5in;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#sheet {
+				width: 8.5in;
+				height: 11in;
+				margin: 0;
+				padding: 0;
+				page-break-after: auto;
+				page-break-inside: avoid;
+				box-sizing: border-box;
+				border: none;
+				transform: rotate(0deg);
+			}
+			/* .zine-page {
+				width: 4.25in;
+				height: 2.75in;
+			} */
+			/* .zine-page-inner {
+				width: 2.4in;
+				height: 3.85in;
+				transform: rotate(90deg);
+			} */
+			@page {
+				size: 8.5in 11in portrait;
+				margin: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="sheet">
+		<div id="back-cover" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>back cover</h1>
+				<br>
+				<p>
+					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
+				</p>
+				<br>
+				<p>
+					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
+				</p>
+				<p>
+					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
+				</p>
+			</div>
+		</div>
+		<div id="page6" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>6</h1>
+			</div>
+		</div>
+		<div id="front-cover" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>front cover</h1>
+			</div>
+		</div>
+		<div id="page5" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>5</h1>
+			</div>
+		</div>
+		<div id="page1" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>1</h1>
+			</div>
+		</div>
+		<div id="page4" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>4</h1>
+			</div>
+		</div>
+		<div id="page2" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>2</h1>
+			</div>
+		</div>
+		<div id="page3" class="zine-page">
+			<div class="zine-page-inner">
+				<h1>3</h1>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
