@@ -6,96 +6,105 @@
 	<title>zine.html</title>
 	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎱</text></svg>">
 	<style>
+		:root {
+			--rotation: 0deg;
+			/* uncomment to flip */
+			/* --rotation: 180deg; */
+		}
+
 		* {
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
 		}
-		html, body {
-			overflow: hidden;
+
+		html {
+			transform: rotate(var(--rotation));
 		}
+
 		body {
 			font-family: Arial, sans-serif;
-			background-color: rgb(58, 158, 183);
+			background-color: green;
+			/* background-image:url("water.jpg"); */
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			height: 100vh;
+			overflow: auto;
 		}
+
 		#sheet {
-			width: 8.5in;
-			height: 11in;
+			width: 11in;
+			height: 8.5in;
 			background-color: white;
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			grid-template-rows: repeat(4, 1fr);
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: repeat(2, 1fr);
 			gap: 0;
-			box-sizing: border-box;
-			transform: rotate(-90deg);
+			outline: 2px solid black;
+			position: relative;
+			margin-bottom: 20px;
+		}
+		
+		#sheet::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index: -1;
+			transform: rotate(calc(-1 * var(--rotation))) translateX(7px) translateY(7px) rotate(var(--rotation));
 		}
 		
 		#page3, #page4, #page5, #page6 {
 			transform: rotate(180deg);
 		}
 
+		/* dashed line border */
+		#back-cover, #front-cover, #page1 {
+			border-right: 1px dashed lightgrey;
+			border-top: 1px dashed lightgrey;
+		}
+		#page4, #page5, #page6 {
+			border-left: 1px dashed lightgrey;
+		}
+		#page2 {
+			border-top: 1px dashed lightgrey;
+		}
+
 		.zine-page {
-			border: 1px dotted lightgrey;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: relative;
-			width: 4.25in;
-			height: 2.75in;
+			height: 4.25in;
+			width: 2.75in;
+			padding-top: .08in;
+			padding-bottom: .2in;
+			padding-left: .18in;
+			padding-right: .18in;
 		}
 
-		.zine-page-inner {
-			width: 2.4in;
-			height: 3.85in;
-			transform: rotate(90deg);
+		.zine-page-content {
+			width: 100%;
+			height: 100%;
 			overflow: hidden;
-		}
-
-		p {
-			font-size: 12px;
-			line-height: 1.3;
+			font-size: 18px;
 		}
 
 		/* Print styles */
 		@media print {
-			* {
-				margin: 0 !important;
-				padding: 0 !important;
-			}
-			
-			body {
-				background-color: white;
-				padding: 0;
-				margin: 0;
-				height: 11in;
-				width: 8.5in;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
 			#sheet {
-				width: 8.5in;
-				height: 11in;
-				margin: 0;
-				padding: 0;
 				page-break-after: auto;
 				page-break-inside: avoid;
 				box-sizing: border-box;
-				border: none;
-				transform: rotate(0deg);
-			}
-			/* .zine-page {
-				width: 4.25in;
-				height: 2.75in;
-			} */
-			/* .zine-page-inner {
-				width: 2.4in;
-				height: 3.85in;
 				transform: rotate(90deg);
-			} */
+				outline: none;
+			}
+			#sheet::after {
+				display: none;
+			}
+			.zine-page {
+				border: none;
+			}
 			@page {
 				size: 8.5in 11in portrait;
 				margin: 0;
@@ -105,55 +114,45 @@
 </head>
 <body>
 	<div id="sheet">
-		<div id="back-cover" class="zine-page">
-			<div class="zine-page-inner">
-				<h1>back cover</h1>
-				<br>
-				<p>
-					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
-				</p>
-				<br>
-				<p>
-					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
-				</p>
-				<p>
-					Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. Lorem ipsum, quia dolor, sit amet. 
-				</p>
-			</div>
-		</div>
-		<div id="page6" class="zine-page">
-			<div class="zine-page-inner">
+		<div class="zine-page" id="page6">
+			<div class="zine-page-content">
 				<h1>6</h1>
 			</div>
 		</div>
-		<div id="front-cover" class="zine-page">
-			<div class="zine-page-inner">
-				<h1>front cover</h1>
-			</div>
-		</div>
-		<div id="page5" class="zine-page">
-			<div class="zine-page-inner">
+		<div class="zine-page" id="page5">
+			<div class="zine-page-content">
 				<h1>5</h1>
 			</div>
 		</div>
-		<div id="page1" class="zine-page">
-			<div class="zine-page-inner">
-				<h1>1</h1>
-			</div>
-		</div>
-		<div id="page4" class="zine-page">
-			<div class="zine-page-inner">
+		<div class="zine-page" id="page4">
+			<div class="zine-page-content">
 				<h1>4</h1>
 			</div>
 		</div>
-		<div id="page2" class="zine-page">
-			<div class="zine-page-inner">
-				<h1>2</h1>
+		<div class="zine-page" id="page3">
+			<div class="zine-page-content">
+				<h1>3</h1>
 			</div>
 		</div>
-		<div id="page3" class="zine-page">
-			<div class="zine-page-inner">
-				<h1>3</h1>
+		<div class="zine-page" id="back-cover">
+			<div class="zine-page-content">
+				<h1>back cover</h1>
+			</div>
+		</div>
+		<div class="zine-page" id="front-cover">
+			<div class="zine-page-content">
+				<h1>zine.html</h1>
+				<div style="font-size:100px; margin-top:80px; text-align: center;" class="center">🎱</div>
+			</div>
+		</div>
+		<div class="zine-page" id="page1">
+			<div class="zine-page-content">
+				<h1>1</h1>
+			</div>
+		</div>
+		<div class="zine-page" id="page2">
+			<div class="zine-page-content">
+				<h1>2</h1>
 			</div>
 		</div>
 	</div>
