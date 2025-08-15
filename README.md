@@ -1,7 +1,7 @@
 # What if you could hold a website?
-open ```zine.html``` in your web browser (or <a href="https://hunterirving.github.io/zine.html/zine.html">click here</a>) then use ```⌘``` + ```P``` to print an 8-page mini zine to one sheet of 8.5 x 11" legal paper.
+open ```zine.html``` in your web browser (or <a href="https://hunterirving.github.io/zine.html/zines/zine.html/">click here</a>) then use ```⌘``` + ```P``` to print an 8-page mini zine to one sheet of 8.5 x 11" legal paper.
 
-<a href="https://hunterirving.github.io/zine.html/zine.html"><img src="resources/readme_images/zine-layout.png"></a>
+<a href="https://hunterirving.github.io/zine.html/zines/zine.html/"><img src="resources/readme_images/zine-layout.png"></a>
 
 >[!NOTE]
 >for best results, in your system print dialog...
@@ -23,13 +23,13 @@ Once you've printed the page, follow this assembly guide from <a href="https://v
 >once assembled, consider gluing each page together with a gluestick for increased structural stability. see <a href="/diagnostics/glue_guide/">the glue guide</a> for a recommended gluing pattern.
 
 # In Stock
-1. <a href="https://hunterirving.github.io/zines/zine.html">zine.html</a><img src="resources/readme_images/hot.gif" style="padding-left:10px; height: 26px;">
+1. <a href="https://hunterirving.github.io/zine.html/zines/zine.html/">zine.html</a><img src="resources/readme_images/hot.gif" style="padding-left:10px; height: 26px;">
 > the literary classic that started a revolution in self-publishing.
 2. <a href="https://hunterirving.github.io/zines/hacksburg_gazette">the hacksburg gazette</a>
 > a promotional zine for Hacksburg, a makerspace in Blacksburg, VA.
 
 # Z.I.Y. (Zine it Yourself)
-1. open <a href="https://hunterirving.github.io/template.html">template.html</a> in your text editor of choice
+1. open <a href="https://hunterirving.github.io/zine.html/template.html/">template.html</a> in your text editor of choice
 2. write some HTML within the existing ```.zine-page-content``` divs<br>
 3. open the modified file in your favorite web browser
 4. hit print!
@@ -39,7 +39,7 @@ if a given zine doesn't come out right on your printer (graphics/text cut off at
 
 (so far these have only been tested with one printer... mine)
 
->[!TIP] A diagnostic <a href="https://hunterirving.com/zinehtml/diagnostics/margin_finder">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
+>[!TIP] A diagnostic <a href="https://hunterirving.com/zine.html/diagnostics/margin_finder">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
 
 # Cool Zine Ideas:
 - comic book
