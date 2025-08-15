@@ -39,7 +39,8 @@ if a given zine doesn't come out right on your printer (graphics/text cut off at
 
 (so far these have only been tested with one printer... mine)
 
->[!TIP] A diagnostic <a href="https://hunterirving.github.io/zine.html/diagnostics/margin_finder/">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
+>[!TIP]
+>A diagnostic <a href="https://hunterirving.github.io/zine.html/diagnostics/margin_finder/">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
 
 # Cool Zine Ideas:
 - comic book
