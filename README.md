@@ -20,7 +20,7 @@ Once you've printed the page, follow this assembly guide from <a href="https://v
 </a>
 
 >[!TIP]
->once assembled, consider gluing each page together with a gluestick for increased structural stability. see <a href="/diagnostics/glue_guide/">the glue guide</a> for a recommended gluing pattern.
+>once assembled, consider gluing each page together with a gluestick for increased structural stability. see <a href="https://hunterirving.github.io/zine.html/diagnostics/glue_guide/">the glue guide</a> for a recommended gluing pattern.
 
 # In Stock
 1. <a href="https://hunterirving.github.io/zine.html/zines/zine.html/">zine.html</a><img src="resources/readme_images/hot.gif" style="padding-left:10px; height: 26px;">
@@ -39,7 +39,7 @@ if a given zine doesn't come out right on your printer (graphics/text cut off at
 
 (so far these have only been tested with one printer... mine)
 
->[!TIP] A diagnostic <a href="https://hunterirving.com/zine.html/diagnostics/margin_finder">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
+>[!TIP] A diagnostic <a href="https://hunterirving.github.io/zine.html/diagnostics/margin_finder/">margin finder tool</a> is provided for your convenience. Print a copy to push your printer to its absolute limits, and then, knowing those limits, make some cool zines with it.
 
 # Cool Zine Ideas:
 - comic book
