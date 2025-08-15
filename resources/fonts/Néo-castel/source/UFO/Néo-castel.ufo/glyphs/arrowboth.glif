@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowboth" format="2">
+	<advance width="768"/>
+	<unicode hex="2194"/>
+	<outline>
+		<component base="less" xScale="-1" yScale="-1" xOffset="704" yOffset="640"/>
+		<contour>
+			<point x="624" y="320" type="line" smooth="yes"/>
+			<point x="644" y="320"/>
+			<point x="660" y="334"/>
+			<point x="660" y="352" type="curve" smooth="yes"/>
+			<point x="660" y="370"/>
+			<point x="644" y="384"/>
+			<point x="624" y="384" type="curve" smooth="yes"/>
+			<point x="36" y="384" type="line" smooth="yes"/>
+			<point x="16" y="384"/>
+			<point x="0" y="370"/>
+			<point x="0" y="352" type="curve" smooth="yes"/>
+			<point x="0" y="334"/>
+			<point x="16" y="320"/>
+			<point x="36" y="320" type="curve" smooth="yes"/>
+		</contour>
+		<component base="less" yScale="-1" yOffset="640"/>
+	</outline>
+</glyph>
