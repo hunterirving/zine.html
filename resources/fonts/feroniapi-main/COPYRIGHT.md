@@ -1,0 +1,1 @@
+Copyright (c) 2023, Feroniapi, Julienne Richard <julienne.richard@gmail.com> and Peter Wiegel <wiegel@peter-wiegel.de>

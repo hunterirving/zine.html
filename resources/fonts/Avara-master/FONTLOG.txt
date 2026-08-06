@@ -1,0 +1,92 @@
+FONTLOG for Avara
+-------------------
+This file provides detailed information on the Avara font software.
+This information should be distributed along with the AVARA fonts
+and any derivative works.
+
+
+Basic Font Information
+--------------------------
+Avara is a libre transitional serif curveless font based on a square grid.
+On a 1000 UPM square, the grid is created by a 40 unit span.
+
+
+Information for Contributors
+------------------------------
+Avara is released under the OFL 1.1 - http://scripts.sil.org/OFL
+For information on what you're allowed to change or modify, consult the
+OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
+rationale and various recommendations regarding why you would want to
+contribute to the project or make your own version of the font.
+
+See the project website for the current trunk and the various branches:
+https://gitlab.com/velvetyne/Avara
+
+ChangeLog
+----------
+
+1 August 2013 (Wei H) Avara Version 0
+- FontLab and FontForge sources
+
+2 January 2013 (Wei H) Avara Version 0
+- Horizontal metrics fixed for all characters for even spacing
+- Vertical metrics made taller for larger line-heigh
+- Removed kerning and kerning classes, will need to re-do due to new metrics
+- UPM size changed to 25 units for strict grid design, all co-ordinates are on the grid now
+- /c/o/e/a/s/g/q/d/b/p/h/n/r/m/u/ to be taller so it's optically same as x, may not work, needs testing
+- /D/ right side to be as fat as O
+- /H/ Wider
+- /J/ Ball Terminal
+- /L/ Sharp serif past baseline
+- /N/ wider
+- /R/ sharp leg
+- /S/ Ball-like terminal on bottom
+- /m/n/ wedge where the shoulder connects straight part is more open
+- /u/ serifs bigger
+- /y/ serif removed on right side for clarity
+- /z/ serifs made smaller
+- .sfg files updated, now does not have grid though
+- .ufo files updated
+
+4 June 2013 (Raphaël) Avara Version 0
+- Added basic glyphs, documentation
+- Released as Avara
+
+5 December 2016 (Jérémy) Avara Bold Version 0
+Done :
+- Renamed « Avara bold » to « Avara regular ».
+- Metrics of the uppercases and lowercases of the extra bold.
+- Corrected the vertical metrics of the regular and the extra bold.
+- Bigger x-height for the extra bold.
+Changed in the regular :
+- /2/ balance
+Issues :
+- Are the lowercases too bold compared to the uppercases?
+- There is no overshoot of the curved letters under the line-height or above the cap height. Is this a feature?
+
+
+Acknowledgements
+-------------------------
+
+N: Raphaël Bastide
+E: bonjour@raphaelbastide.com
+W: http://raphaelbastide.com
+D: Initiator, contributor
+
+N: Wei Huang
+W: https://twitter.com/w__h_
+D: Contributor
+
+N: Lucas Le Bihan
+E: lucas.bihan@gmail.com
+W: http://lucaslebihan.fr
+D: Contributor
+
+N: Jérémy Landes
+E: jeremy@studiotriple.fr
+W: http://jjllnn.fr
+D: Contributor
+
+N: Walid Bouchouchi
+E: bouchouchiw@gmail.com
+D: Contributor

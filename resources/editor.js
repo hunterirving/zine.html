@@ -2,7 +2,7 @@ import { saveToStorage } from './storage.js';
 import { saveFile, loadFile } from './file-operations.js';
 import { updatePreview, setupPreviewPane } from './preview-manager.js';
 import { navigateSpread, toggleFullscreen, initializeSpreadNav, getIsFullscreen } from './spread-navigation.js';
-import { initializeCodeMirror } from './codemirror-config.js';
+import { initializeCodeMirror, closeFontPicker } from './codemirror-config.js';
 import { preloadAllFonts } from './font-registry.js';
 import { isMobileDevice, exitMobileKeyboardMode, initializeMobileKeyboard } from './mobile-keyboard.js';
 
@@ -80,6 +80,7 @@ async function initializeEditor() {
 	editorView.contentDOM.addEventListener('focus', () => { isEditorFocused = true; });
 	editorView.contentDOM.addEventListener('blur', () => {
 		isEditorFocused = false;
+		closeFontPicker();
 		if (isMobileDevice()) {
 			exitMobileKeyboardMode(editorView, updatePreviewWrapper);
 		}

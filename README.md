@@ -49,6 +49,8 @@ just use `font-family` in your CSS:
 | `Baskervville SemiBold` | Regular, Italic | [SIL Open Font License](resources/fonts/baskervvile/OFL.txt) |
 | `Basteleur Bold` | Regular | [SIL Open Font License](resources/fonts/basteleur-master/LICENSE.txt) |
 | `Basteleur Moonlight` | Regular | [SIL Open Font License](resources/fonts/basteleur-master/LICENSE.txt) |
+| `Avara` | Bold, Bold Italic | [SIL Open Font License](resources/fonts/Avara-master/LICENSE.txt) |
+| `Avara Black` | Regular | [SIL Open Font License](resources/fonts/Avara-master/LICENSE.txt) |
 | `Ballet` | Regular | [SIL Open Font License](resources/fonts/Ballet/OFL.txt) |
 | `Bitcount Single` | Regular | [SIL Open Font License](resources/fonts/Bitcount_Single/OFL.txt) |
 | `Cut Me Out 2` | Regular | [SIL Open Font License](resources/fonts/CutMeOut/Open%20Font%20License.txt) |
@@ -56,27 +58,40 @@ just use `font-family` in your CSS:
 | `Elb-Tunnel Schatten` | Regular | [Creative Commons](resources/fonts/ElbtunnelTT/Creative%20Commons%20Lizenz.txt) |
 | `Eagle Lake` | Regular | [SIL Open Font License](resources/fonts/Eagle_Lake/OFL.txt) |
 | `Eureka` | Regular | [SIL Open Font License](resources/fonts/Eureka/Open%20Font%20License.txt) |
+| `Feroniapi` | Medium Italic | [SIL Open Font License](resources/fonts/feroniapi-main/LICENSE.txt) |
 | `Geostar Fill` | Regular | [SIL Open Font License](resources/fonts/Geostar_Fill/OFL.txt) |
+| `Hyper Scrypt` | Regular | [SIL Open Font License](resources/fonts/Hyper-Scrypt-master/LICENSE.txt) |
 | `IBM Plex Serif` | Regular, Italic, Bold, Bold Italic | [SIL Open Font License](resources/fonts/IBM_Plex_Serif/OFL.txt) |
 | `Indira K` | Regular | [SIL Open Font License](resources/fonts/Indira_K/OFL.txt) |
 | `Instrument Serif` | Regular, Italic | [SIL Open Font License](resources/fonts/Instrument_Serif/OFL.txt) |
 | `Jacquard 12` | Regular | [SIL Open Font License](resources/fonts/Jacquard_12/OFL.txt) |
 | `Jacquarda Bastarda 9` | Regular | [SIL Open Font License](resources/fonts/Jacquarda_Bastarda_9/OFL.txt) |
+| `Jgs Font` | Regular | [SIL Open Font License](resources/fonts/jgs-main/LICENSE) |
+| `Jgs 5` | Regular | [SIL Open Font License](resources/fonts/jgs-main/LICENSE) |
+| `Jgs 7` | Regular | [SIL Open Font License](resources/fonts/jgs-main/LICENSE) |
+| `Jgs 9` | Regular | [SIL Open Font License](resources/fonts/jgs-main/LICENSE) |
+| `Kaeru Kaeru` | Regular | [SIL Open Font License](resources/fonts/kaerukaeru-master/LICENSE.txt) |
 | `Kanalisirung` | Regular | [SIL Open Font License](resources/fonts/Kanalisirung/OFL.txt) |
 | `Karrik` | Regular, Italic | [SIL Open Font License](resources/fonts/karrik_fonts-main/LICENCE.txt) |
 | `Kings` | Regular | [SIL Open Font License](resources/fonts/Kings/OFL.txt) |
 | `Matemasie` | Regular | [SIL Open Font License](resources/fonts/Matemasie/OFL.txt) |
+| `Mess` | Light | [SIL Open Font License](resources/fonts/Mess-master/licence.txt) |
 | `Mon Hugo` | Regular | [SIL Open Font License](resources/fonts/Mon_Hugo_freefont/FREE%20FONT%20LICENSE.txt) |
 | `Mon Hugo Out` | Regular | [SIL Open Font License](resources/fonts/Mon_Hugo_freefont/FREE%20FONT%20LICENSE.txt) |
 | `Murrx` | Regular | [SIL Open Font License](resources/fonts/Murrx/Open%20Font%20License.txt) |
-| `Neo-castel` | Regular | [OIFL (French OFL)](resources/fonts/N%C3%A9o-castel/Licence.txt) |
+| `Neo-castel` | Regular | [OIFL (French OFL)](resources/fonts/Neo-castel/Licence.txt) |
 | `Ouest` | Regular | [OIFL (French OFL)](resources/fonts/OUEST/license.txt) |
 | `Princess Sofia` | Regular | [SIL Open Font License](resources/fonts/Princess_Sofia/OFL.txt) |
 | `Resistance` | Regular | [SIL Open Font License](resources/fonts/resistance-generale-master/LICENSE.txt) |
 | `Snowburst One` | Regular | [SIL Open Font License](resources/fonts/Snowburst_One/OFL.txt) |
 | `Special Elite` | Regular | [Apache License](resources/fonts/Special_Elite/LICENSE.txt) |
 | `Special Gothic Expanded One` | Regular | [SIL Open Font License](resources/fonts/Special_Gothic_Expanded_One/OFL.txt) |
+| `Steps Mono` | Regular | [SIL Open Font License](resources/fonts/steps-mono-main/LICENSE.txt) |
+| `Steps Mono Thin` | Regular | [SIL Open Font License](resources/fonts/steps-mono-main/LICENSE.txt) |
+| `Terminal Grotesque` | Regular | [SIL Open Font License](resources/fonts/Terminal-Grotesque-master/LICENSE.md) |
+| `Terminal Grotesque Open` | Regular | [SIL Open Font License](resources/fonts/Terminal-Grotesque-master/LICENSE.md) |
 | `Tiny5` | Regular | [SIL Open Font License](resources/fonts/Tiny5/OFL.txt) |
+| `Trickster` | Regular | [SIL Open Font License](resources/fonts/Trickster-master/LICENSE.txt) |
 
 </details>
 

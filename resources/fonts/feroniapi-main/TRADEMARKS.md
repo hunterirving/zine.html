@@ -1,0 +1,1 @@
+Feroniapi is a trademark of Julienne Richard & Peter Wiegel.
